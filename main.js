@@ -38,16 +38,18 @@ const imagens = [
 
 function criarImagem(srcImagem){
     const galeria = document.getElementById('galeria')
-    const imagem = document.createElement('img')
-    imagem.src = srcImagem.url
-    galeria.appendChild(imagem)
 
-    const container = document.createElement('div')
-    const legenda = document.createElement('p')
+    const imagem = document.createElement('img')
+    const legenda = document.createElement('legenda')
+
+    imagem.src = srcImagem.url
     legenda.textContent = srcImagem.nome
-    galeria.appendChild(container)
+
+    galeria.appendChild(imagem)
     galeria.appendChild(legenda)
 }
+
+
 
 function carregarImagens(){
     imagens.forEach(criarImagem)

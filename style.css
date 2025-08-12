@@ -25,13 +25,6 @@ body{
     padding-block: 8px;
 }
 
-.galeria p{
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    width: 100%;
-    bottom: 17px;
-}
-
-.galeria div{
-    position: relative;
+.galeria legenda{
+    background-color: rgba(0, 0, 0, 0.544);
 }
