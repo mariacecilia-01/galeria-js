@@ -23,8 +23,9 @@ body{
 .galeria img{
     width: 100%;
     padding-block: 8px;
+    position: relative;
 }
 
-.galeria legenda{
+.galeria p{
     background-color: rgba(0, 0, 0, 0.544);
 }
